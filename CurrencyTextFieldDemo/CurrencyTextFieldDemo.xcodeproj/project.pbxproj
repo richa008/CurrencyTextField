@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A53CE2A91CFFA7D00053F437 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53CE2A81CFFA7D00053F437 /* AppDelegate.swift */; };
+		A53CE2AB1CFFA7D00053F437 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53CE2AA1CFFA7D00053F437 /* ViewController.swift */; };
+		A53CE2AE1CFFA7D00053F437 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A53CE2AC1CFFA7D00053F437 /* Main.storyboard */; };
+		A53CE2B11CFFA7D00053F437 /* CurrencyTextFieldDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A53CE2AF1CFFA7D00053F437 /* CurrencyTextFieldDemo.xcdatamodeld */; };
+		A53CE2B31CFFA7D00053F437 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A53CE2B21CFFA7D00053F437 /* Assets.xcassets */; };
+		A53CE2B61CFFA7D00053F437 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A53CE2B41CFFA7D00053F437 /* LaunchScreen.storyboard */; };
+		A53CE2C11CFFA7D00053F437 /* CurrencyTextFieldDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53CE2C01CFFA7D00053F437 /* CurrencyTextFieldDemoTests.swift */; };
+		A53CE2CC1CFFA7D00053F437 /* CurrencyTextFieldDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53CE2CB1CFFA7D00053F437 /* CurrencyTextFieldDemoUITests.swift */; };
+		A53CE2E01CFFAD3A0053F437 /* CurrencyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53CE2DF1CFFAD3A0053F437 /* CurrencyTextField.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A53CE2BD1CFFA7D00053F437 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A53CE29D1CFFA7D00053F437 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A53CE2A41CFFA7D00053F437;
+			remoteInfo = CurrencyTextFieldDemo;
+		};
+		A53CE2C81CFFA7D00053F437 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A53CE29D1CFFA7D00053F437 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A53CE2A41CFFA7D00053F437;
+			remoteInfo = CurrencyTextFieldDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A53CE2A51CFFA7D00053F437 /* CurrencyTextFieldDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CurrencyTextFieldDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A53CE2A81CFFA7D00053F437 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A53CE2AA1CFFA7D00053F437 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A53CE2AD1CFFA7D00053F437 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A53CE2B01CFFA7D00053F437 /* CurrencyTextFieldDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CurrencyTextFieldDemo.xcdatamodel; sourceTree = "<group>"; };
+		A53CE2B21CFFA7D00053F437 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A53CE2B51CFFA7D00053F437 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A53CE2B71CFFA7D00053F437 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A53CE2BC1CFFA7D00053F437 /* CurrencyTextFieldDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CurrencyTextFieldDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A53CE2C01CFFA7D00053F437 /* CurrencyTextFieldDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTextFieldDemoTests.swift; sourceTree = "<group>"; };
+		A53CE2C21CFFA7D00053F437 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A53CE2C71CFFA7D00053F437 /* CurrencyTextFieldDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CurrencyTextFieldDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A53CE2CB1CFFA7D00053F437 /* CurrencyTextFieldDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTextFieldDemoUITests.swift; sourceTree = "<group>"; };
+		A53CE2CD1CFFA7D00053F437 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A53CE2DF1CFFAD3A0053F437 /* CurrencyTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyTextField.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A53CE2A21CFFA7D00053F437 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A53CE2B91CFFA7D00053F437 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A53CE2C41CFFA7D00053F437 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A53CE29C1CFFA7D00053F437 = {
+			isa = PBXGroup;
+			children = (
+				A53CE2DC1CFFAB3E0053F437 /* CurrencyTextField */,
+				A53CE2A71CFFA7D00053F437 /* CurrencyTextFieldDemo */,
+				A53CE2BF1CFFA7D00053F437 /* CurrencyTextFieldDemoTests */,
+				A53CE2CA1CFFA7D00053F437 /* CurrencyTextFieldDemoUITests */,
+				A53CE2A61CFFA7D00053F437 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A53CE2A61CFFA7D00053F437 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A53CE2A51CFFA7D00053F437 /* CurrencyTextFieldDemo.app */,
+				A53CE2BC1CFFA7D00053F437 /* CurrencyTextFieldDemoTests.xctest */,
+				A53CE2C71CFFA7D00053F437 /* CurrencyTextFieldDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A53CE2A71CFFA7D00053F437 /* CurrencyTextFieldDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A53CE2A81CFFA7D00053F437 /* AppDelegate.swift */,
+				A53CE2AA1CFFA7D00053F437 /* ViewController.swift */,
+				A53CE2AC1CFFA7D00053F437 /* Main.storyboard */,
+				A53CE2B21CFFA7D00053F437 /* Assets.xcassets */,
+				A53CE2B41CFFA7D00053F437 /* LaunchScreen.storyboard */,
+				A53CE2B71CFFA7D00053F437 /* Info.plist */,
+				A53CE2AF1CFFA7D00053F437 /* CurrencyTextFieldDemo.xcdatamodeld */,
+			);
+			path = CurrencyTextFieldDemo;
+			sourceTree = "<group>";
+		};
+		A53CE2BF1CFFA7D00053F437 /* CurrencyTextFieldDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A53CE2C01CFFA7D00053F437 /* CurrencyTextFieldDemoTests.swift */,
+				A53CE2C21CFFA7D00053F437 /* Info.plist */,
+			);
+			path = CurrencyTextFieldDemoTests;
+			sourceTree = "<group>";
+		};
+		A53CE2CA1CFFA7D00053F437 /* CurrencyTextFieldDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A53CE2CB1CFFA7D00053F437 /* CurrencyTextFieldDemoUITests.swift */,
+				A53CE2CD1CFFA7D00053F437 /* Info.plist */,
+			);
+			path = CurrencyTextFieldDemoUITests;
+			sourceTree = "<group>";
+		};
+		A53CE2DC1CFFAB3E0053F437 /* CurrencyTextField */ = {
+			isa = PBXGroup;
+			children = (
+				A53CE2DF1CFFAD3A0053F437 /* CurrencyTextField.swift */,
+			);
+			name = CurrencyTextField;
+			path = ../CurrencyTextField;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A53CE2A41CFFA7D00053F437 /* CurrencyTextFieldDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A53CE2D01CFFA7D00053F437 /* Build configuration list for PBXNativeTarget "CurrencyTextFieldDemo" */;
+			buildPhases = (
+				A53CE2A11CFFA7D00053F437 /* Sources */,
+				A53CE2A21CFFA7D00053F437 /* Frameworks */,
+				A53CE2A31CFFA7D00053F437 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CurrencyTextFieldDemo;
+			productName = CurrencyTextFieldDemo;
+			productReference = A53CE2A51CFFA7D00053F437 /* CurrencyTextFieldDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A53CE2BB1CFFA7D00053F437 /* CurrencyTextFieldDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A53CE2D31CFFA7D00053F437 /* Build configuration list for PBXNativeTarget "CurrencyTextFieldDemoTests" */;
+			buildPhases = (
+				A53CE2B81CFFA7D00053F437 /* Sources */,
+				A53CE2B91CFFA7D00053F437 /* Frameworks */,
+				A53CE2BA1CFFA7D00053F437 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A53CE2BE1CFFA7D00053F437 /* PBXTargetDependency */,
+			);
+			name = CurrencyTextFieldDemoTests;
+			productName = CurrencyTextFieldDemoTests;
+			productReference = A53CE2BC1CFFA7D00053F437 /* CurrencyTextFieldDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A53CE2C61CFFA7D00053F437 /* CurrencyTextFieldDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A53CE2D61CFFA7D00053F437 /* Build configuration list for PBXNativeTarget "CurrencyTextFieldDemoUITests" */;
+			buildPhases = (
+				A53CE2C31CFFA7D00053F437 /* Sources */,
+				A53CE2C41CFFA7D00053F437 /* Frameworks */,
+				A53CE2C51CFFA7D00053F437 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A53CE2C91CFFA7D00053F437 /* PBXTargetDependency */,
+			);
+			name = CurrencyTextFieldDemoUITests;
+			productName = CurrencyTextFieldDemoUITests;
+			productReference = A53CE2C71CFFA7D00053F437 /* CurrencyTextFieldDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A53CE29D1CFFA7D00053F437 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Richa;
+				TargetAttributes = {
+					A53CE2A41CFFA7D00053F437 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					A53CE2BB1CFFA7D00053F437 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = A53CE2A41CFFA7D00053F437;
+					};
+					A53CE2C61CFFA7D00053F437 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = A53CE2A41CFFA7D00053F437;
+					};
+				};
+			};
+			buildConfigurationList = A53CE2A01CFFA7D00053F437 /* Build configuration list for PBXProject "CurrencyTextFieldDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A53CE29C1CFFA7D00053F437;
+			productRefGroup = A53CE2A61CFFA7D00053F437 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A53CE2A41CFFA7D00053F437 /* CurrencyTextFieldDemo */,
+				A53CE2BB1CFFA7D00053F437 /* CurrencyTextFieldDemoTests */,
+				A53CE2C61CFFA7D00053F437 /* CurrencyTextFieldDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A53CE2A31CFFA7D00053F437 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A53CE2B61CFFA7D00053F437 /* LaunchScreen.storyboard in Resources */,
+				A53CE2B31CFFA7D00053F437 /* Assets.xcassets in Resources */,
+				A53CE2AE1CFFA7D00053F437 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A53CE2BA1CFFA7D00053F437 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A53CE2C51CFFA7D00053F437 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A53CE2A11CFFA7D00053F437 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A53CE2B11CFFA7D00053F437 /* CurrencyTextFieldDemo.xcdatamodeld in Sources */,
+				A53CE2AB1CFFA7D00053F437 /* ViewController.swift in Sources */,
+				A53CE2E01CFFAD3A0053F437 /* CurrencyTextField.swift in Sources */,
+				A53CE2A91CFFA7D00053F437 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A53CE2B81CFFA7D00053F437 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A53CE2C11CFFA7D00053F437 /* CurrencyTextFieldDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A53CE2C31CFFA7D00053F437 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A53CE2CC1CFFA7D00053F437 /* CurrencyTextFieldDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A53CE2BE1CFFA7D00053F437 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A53CE2A41CFFA7D00053F437 /* CurrencyTextFieldDemo */;
+			targetProxy = A53CE2BD1CFFA7D00053F437 /* PBXContainerItemProxy */;
+		};
+		A53CE2C91CFFA7D00053F437 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A53CE2A41CFFA7D00053F437 /* CurrencyTextFieldDemo */;
+			targetProxy = A53CE2C81CFFA7D00053F437 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A53CE2AC1CFFA7D00053F437 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A53CE2AD1CFFA7D00053F437 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A53CE2B41CFFA7D00053F437 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A53CE2B51CFFA7D00053F437 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A53CE2CE1CFFA7D00053F437 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A53CE2CF1CFFA7D00053F437 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A53CE2D11CFFA7D00053F437 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CurrencyTextFieldDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Richa.CurrencyTextFieldDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A53CE2D21CFFA7D00053F437 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CurrencyTextFieldDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Richa.CurrencyTextFieldDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A53CE2D41CFFA7D00053F437 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CurrencyTextFieldDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Richa.CurrencyTextFieldDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CurrencyTextFieldDemo.app/CurrencyTextFieldDemo";
+			};
+			name = Debug;
+		};
+		A53CE2D51CFFA7D00053F437 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CurrencyTextFieldDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Richa.CurrencyTextFieldDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CurrencyTextFieldDemo.app/CurrencyTextFieldDemo";
+			};
+			name = Release;
+		};
+		A53CE2D71CFFA7D00053F437 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CurrencyTextFieldDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Richa.CurrencyTextFieldDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CurrencyTextFieldDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A53CE2D81CFFA7D00053F437 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CurrencyTextFieldDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Richa.CurrencyTextFieldDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CurrencyTextFieldDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A53CE2A01CFFA7D00053F437 /* Build configuration list for PBXProject "CurrencyTextFieldDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A53CE2CE1CFFA7D00053F437 /* Debug */,
+				A53CE2CF1CFFA7D00053F437 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A53CE2D01CFFA7D00053F437 /* Build configuration list for PBXNativeTarget "CurrencyTextFieldDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A53CE2D11CFFA7D00053F437 /* Debug */,
+				A53CE2D21CFFA7D00053F437 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A53CE2D31CFFA7D00053F437 /* Build configuration list for PBXNativeTarget "CurrencyTextFieldDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A53CE2D41CFFA7D00053F437 /* Debug */,
+				A53CE2D51CFFA7D00053F437 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A53CE2D61CFFA7D00053F437 /* Build configuration list for PBXNativeTarget "CurrencyTextFieldDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A53CE2D71CFFA7D00053F437 /* Debug */,
+				A53CE2D81CFFA7D00053F437 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A53CE2AF1CFFA7D00053F437 /* CurrencyTextFieldDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A53CE2B01CFFA7D00053F437 /* CurrencyTextFieldDemo.xcdatamodel */,
+			);
+			currentVersion = A53CE2B01CFFA7D00053F437 /* CurrencyTextFieldDemo.xcdatamodel */;
+			path = CurrencyTextFieldDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A53CE29D1CFFA7D00053F437 /* Project object */;
+}
