@@ -16,6 +16,7 @@
 		A53CE2C11CFFA7D00053F437 /* CurrencyTextFieldDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53CE2C01CFFA7D00053F437 /* CurrencyTextFieldDemoTests.swift */; };
 		A53CE2CC1CFFA7D00053F437 /* CurrencyTextFieldDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53CE2CB1CFFA7D00053F437 /* CurrencyTextFieldDemoUITests.swift */; };
 		A53CE2E01CFFAD3A0053F437 /* CurrencyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53CE2DF1CFFAD3A0053F437 /* CurrencyTextField.swift */; };
+		A53CE2E21D01774B0053F437 /* CurrencyTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53CE2E11D01774B0053F437 /* CurrencyTextFieldDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		A53CE2CB1CFFA7D00053F437 /* CurrencyTextFieldDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTextFieldDemoUITests.swift; sourceTree = "<group>"; };
 		A53CE2CD1CFFA7D00053F437 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A53CE2DF1CFFAD3A0053F437 /* CurrencyTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyTextField.swift; sourceTree = "<group>"; };
+		A53CE2E11D01774B0053F437 /* CurrencyTextFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyTextFieldDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +137,7 @@
 			isa = PBXGroup;
 			children = (
 				A53CE2DF1CFFAD3A0053F437 /* CurrencyTextField.swift */,
+				A53CE2E11D01774B0053F437 /* CurrencyTextFieldDelegate.swift */,
 			);
 			name = CurrencyTextField;
 			path = ../CurrencyTextField;
@@ -271,6 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A53CE2E21D01774B0053F437 /* CurrencyTextFieldDelegate.swift in Sources */,
 				A53CE2B11CFFA7D00053F437 /* CurrencyTextFieldDemo.xcdatamodeld in Sources */,
 				A53CE2AB1CFFA7D00053F437 /* ViewController.swift in Sources */,
 				A53CE2E01CFFAD3A0053F437 /* CurrencyTextField.swift in Sources */,
