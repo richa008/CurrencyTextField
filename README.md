@@ -5,7 +5,7 @@ The numbers that the user enters in the field are automatically formatted to dis
 
 ##Demo
 
-![Alt text](Screenshots/CurrencyTextField.gif?raw=true "ExampleCurrency gif")
+![Alt text](Screenshots/CurrencyTextFieldExample.gif?raw=true "ExampleCurrency gif")
 
 ##Installation
 
@@ -30,9 +30,12 @@ Clone this repository or download it in zip-file. Then you will find source file
 
 ##Usage
 
+
 Import CurrencyTextField and add it programatically to your view or add UITextField in your Storyboard, and then change the custom class to CurrencyTextField
 
+
 ![Alt text](Screenshots/CustomClassSelect.png?raw=true "Custom class")
+
 
 ```
  @IBOutlet weak var textField: CurrencyTextField!
