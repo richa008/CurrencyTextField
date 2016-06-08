@@ -53,6 +53,7 @@ import UIKit
         let cursorOffset = getOriginalCursorPosition();
         
         let cleanNumericString : String = getCleanNumberString()
+        let textFieldLength = self.text?.characters.count
        
         if cleanNumericString.characters.count > maxDigits{
             self.text = previousValue
@@ -67,7 +68,7 @@ import UIKit
             }
         }
         //Set the cursor back to its original poistion
-        setCursorOriginalPosition(cursorOffset)
+        setCursorOriginalPosition(cursorOffset, oldTextFieldLength: textFieldLength)
     }
     
     //MARK: - Custom text field functions
@@ -109,13 +110,12 @@ import UIKit
         return cursorOffset
     }
     
-    private func setCursorOriginalPosition(cursorOffset: Int){
+    private func setCursorOriginalPosition(cursorOffset: Int, oldTextFieldLength : Int?){
         
-        let textFieldLength = self.text?.characters.count
         let newLength = self.text?.characters.count
         let startPosition : UITextPosition = self.beginningOfDocument
-        if let textFieldLength = textFieldLength, newLength = newLength where textFieldLength > cursorOffset{
-            let newOffset = newLength - textFieldLength - cursorOffset
+        if let oldTextFieldLength = oldTextFieldLength, newLength = newLength where oldTextFieldLength > cursorOffset{
+            let newOffset = newLength - oldTextFieldLength + cursorOffset
             let newCursorPosition = self.positionFromPosition(startPosition, offset: newOffset)
             if let newCursorPosition = newCursorPosition{
                 let newSelectedRange = self.textRangeFromPosition(newCursorPosition, toPosition: newCursorPosition)
