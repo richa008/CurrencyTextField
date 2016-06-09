@@ -13,9 +13,9 @@ import UIKit
     
     private let maxDigits = 12
     
-    private let currencyFormattor = NSNumberFormatter()
+    private var defaultValue: Double = 0.00
     
-    private var previousValue : String = "$0.00"
+    private let currencyFormattor = NSNumberFormatter()
     
     // MARK: - init functions
     
@@ -31,10 +31,10 @@ import UIKit
     
     func initTextField(){
         self.keyboardType = UIKeyboardType.DecimalPad
-        self.text = "$0.00"
         currencyFormattor.numberStyle = .CurrencyStyle
         currencyFormattor.minimumFractionDigits = 2
         currencyFormattor.maximumFractionDigits = 2
+        setAmount(defaultValue)
     }
     
     // MARK: - UITextField Notifications
@@ -124,5 +124,8 @@ import UIKit
             
         }
     }
+
+    
+    
     
 }
