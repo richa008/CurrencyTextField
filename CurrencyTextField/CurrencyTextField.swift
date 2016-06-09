@@ -116,14 +116,12 @@ import UIKit
         
         let newLength = self.text?.characters.count
         let startPosition : UITextPosition = self.beginningOfDocument
-        if let oldTextFieldLength = oldTextFieldLength where oldTextFieldLength > cursorOffset{
-            if let newLength = newLength{
-                let newOffset = newLength - oldTextFieldLength + cursorOffset
-                let newCursorPosition = self.positionFromPosition(startPosition, offset: newOffset)
-                if let newCursorPosition = newCursorPosition{
-                    let newSelectedRange = self.textRangeFromPosition(newCursorPosition, toPosition: newCursorPosition)
-                    self.selectedTextRange = newSelectedRange
-                }
+        if let oldTextFieldLength = oldTextFieldLength, newLength = newLength where oldTextFieldLength > cursorOffset{
+            let newOffset = newLength - oldTextFieldLength + cursorOffset
+            let newCursorPosition = self.positionFromPosition(startPosition, offset: newOffset)
+            if let newCursorPosition = newCursorPosition{
+                let newSelectedRange = self.textRangeFromPosition(newCursorPosition, toPosition: newCursorPosition)
+                self.selectedTextRange = newSelectedRange
             }
             
         }
