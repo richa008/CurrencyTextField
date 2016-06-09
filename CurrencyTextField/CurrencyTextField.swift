@@ -17,6 +17,8 @@ import UIKit
     
     private let currencyFormattor = NSNumberFormatter()
     
+    private var previousValue : String = ""
+    
     // MARK: - init functions
     
     override public init(frame: CGRect) {
