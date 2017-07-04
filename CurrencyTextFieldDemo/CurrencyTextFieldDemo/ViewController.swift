@@ -17,11 +17,11 @@ class ViewController: UIViewController, UITextFieldDelegate {
         textField.delegate = self
     }
     
-    func textFieldDidBeginEditing(textField: UITextField) {
+    func textFieldDidBeginEditing(_ textField: UITextField) {
         print("textFieldDidBeginEditing is called")
     }
     
-    func textFieldShouldClear(textField: UITextField) -> Bool {
+    func textFieldShouldClear(_ textField: UITextField) -> Bool {
         textField.text = "$0.00"
         return false
     }
