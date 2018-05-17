@@ -49,7 +49,7 @@ import UIKit
         }
     }
     
-    func textDidChange(_ notification: Notification){
+    @objc func textDidChange(_ notification: Notification){
         
         //Get the original position of the cursor
         let cursorOffset = getOriginalCursorPosition();
