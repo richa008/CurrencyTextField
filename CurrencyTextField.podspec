@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "CurrencyTextField"
-  s.version      = "2.1"
+  s.version      = "2.3"
   s.summary      = "A text field that takes input in currency format"
   s.homepage     = "https://github.com/richa008/CurrencyTextField"
   s.screenshots  = "https://raw.githubusercontent.com/richa008/CurrencyTextField/master/Screenshots/CurrencyTextFieldExample.gif"
